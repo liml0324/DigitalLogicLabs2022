@@ -1,0 +1,20 @@
+0.7
+2020.2
+Jun 10 2021
+20:04:57
+D:/VivadoProjects/Experiment_4/Experiment_4.sim/sim_1/behav/xsim/glbl.v,1623370582,verilog,,,,glbl,,,,,,,,
+D:/VivadoProjects/Experiment_4/Experiment_4.srcs/sim_1/new/Circuit1_tb.v,1667046270,verilog,,,,Circuit1_tb,,,,,,,,
+D:/VivadoProjects/Experiment_4/Experiment_4.srcs/sim_1/new/DB_tb.v,1666874032,verilog,,,,DB_tb,,,,,,,,
+D:/VivadoProjects/Experiment_4/Experiment_4.srcs/sim_1/new/DIS_tb.v,1666918346,verilog,,,,DIS_tb,,,,,,,,
+D:/VivadoProjects/Experiment_4/Experiment_4.srcs/sim_1/new/FD_tb.v,1667134301,verilog,,,,FD_tb,,,,,,,,
+D:/VivadoProjects/Experiment_4/Experiment_4.srcs/sim_1/new/POS_tb.v,1667144070,verilog,,,,POS_tb,,,,,,,,
+D:/VivadoProjects/Experiment_4/Experiment_4.srcs/sim_1/new/Timer_tb.v,1667041261,verilog,,,,Timer_tb,,,,,,,,
+D:/VivadoProjects/Experiment_4/Experiment_4.srcs/sources_1/new/Circuit0.v,1666926987,verilog,,D:/VivadoProjects/Experiment_4/Experiment_4.srcs/sources_1/new/Counter.v,,Circuit0,,,,,,,,
+D:/VivadoProjects/Experiment_4/Experiment_4.srcs/sources_1/new/Circuit1.v,1667044467,verilog,,D:/VivadoProjects/Experiment_4/Experiment_4.srcs/sources_1/new/Counter.v,,Circuit1,,,,,,,,
+D:/VivadoProjects/Experiment_4/Experiment_4.srcs/sources_1/new/Counter.v,1667139996,verilog,,D:/VivadoProjects/Experiment_4/Experiment_4.srcs/sources_1/new/Display.v,,Counter,,,,,,,,
+D:/VivadoProjects/Experiment_4/Experiment_4.srcs/sources_1/new/D_Flipflop.v,1666876614,verilog,,D:/VivadoProjects/Experiment_4/Experiment_4.srcs/sources_1/new/GetPosedge.v,,D_Flipflop,,,,,,,,
+D:/VivadoProjects/Experiment_4/Experiment_4.srcs/sources_1/new/Debounce.v,1667055699,verilog,,D:/VivadoProjects/Experiment_4/Experiment_4.srcs/sim_1/new/DB_tb.v,,Debounce,,,,,,,,
+D:/VivadoProjects/Experiment_4/Experiment_4.srcs/sources_1/new/Display.v,1667140541,verilog,,D:/VivadoProjects/Experiment_4/Experiment_4.srcs/sources_1/new/FrequencyDivider.v,,Display,,,,,,,,
+D:/VivadoProjects/Experiment_4/Experiment_4.srcs/sources_1/new/FrequencyDivider.v,1667139579,verilog,,D:/VivadoProjects/Experiment_4/Experiment_4.srcs/sim_1/new/DIS_tb.v,,FrequencyDivider,,,,,,,,
+D:/VivadoProjects/Experiment_4/Experiment_4.srcs/sources_1/new/GetPosedge.v,1667139973,verilog,,D:/VivadoProjects/Experiment_4/Experiment_4.srcs/sim_1/new/POS_tb.v,,GetPosedge,,,,,,,,
+D:/VivadoProjects/Experiment_4/Experiment_4.srcs/sources_1/new/Timer.v,1667139815,verilog,,D:/VivadoProjects/Experiment_4/Experiment_4.srcs/sim_1/new/Timer_tb.v,,Timer,,,,,,,,

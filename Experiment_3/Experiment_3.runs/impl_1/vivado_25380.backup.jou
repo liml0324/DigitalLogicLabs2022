@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Thu Oct 27 15:54:17 2022
+# Process ID: 25380
+# Current directory: D:/VivadoProjects/Experiment_3/Experiment_3.runs/impl_1
+# Command line: vivado.exe -log SQD.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source SQD.tcl -notrace
+# Log file: D:/VivadoProjects/Experiment_3/Experiment_3.runs/impl_1/SQD.vdi
+# Journal file: D:/VivadoProjects/Experiment_3/Experiment_3.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source SQD.tcl -notrace

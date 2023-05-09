@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Wed Nov 23 15:53:28 2022
+# Process ID: 34884
+# Current directory: D:/VivadoProjects/Experiment_5/Experiment_5.runs/impl_1
+# Command line: vivado.exe -log SRT.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source SRT.tcl -notrace
+# Log file: D:/VivadoProjects/Experiment_5/Experiment_5.runs/impl_1/SRT.vdi
+# Journal file: D:/VivadoProjects/Experiment_5/Experiment_5.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source SRT.tcl -notrace

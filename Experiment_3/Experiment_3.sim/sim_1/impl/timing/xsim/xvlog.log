@@ -1,0 +1,23 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/VivadoProjects/Experiment_3/Experiment_3.sim/sim_1/impl/timing/xsim/SQD_Timing_tb_time_impl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CLn_Moore
+INFO: [VRFC 10-311] analyzing module D_Flipflop
+INFO: [VRFC 10-311] analyzing module D_Flipflop__parameterized0
+INFO: [VRFC 10-311] analyzing module D_Flipflop__parameterized1
+INFO: [VRFC 10-311] analyzing module D_Flipflop__parameterized1_0
+INFO: [VRFC 10-311] analyzing module D_Flipflop__parameterized1_1
+INFO: [VRFC 10-311] analyzing module D_Flipflop__parameterized1_2
+INFO: [VRFC 10-311] analyzing module D_Flipflop__parameterized1_3
+INFO: [VRFC 10-311] analyzing module D_Flipflop__parameterized1_4
+INFO: [VRFC 10-311] analyzing module D_Flipflop__parameterized1_5
+INFO: [VRFC 10-311] analyzing module D_Flipflop__parameterized1_6
+INFO: [VRFC 10-311] analyzing module D_Flipflop__parameterized1_7
+INFO: [VRFC 10-311] analyzing module OR_Moore
+INFO: [VRFC 10-311] analyzing module SQD
+INFO: [VRFC 10-311] analyzing module SQD_Mealy
+INFO: [VRFC 10-311] analyzing module SQD_Moore
+INFO: [VRFC 10-311] analyzing module SR_Mealy
+INFO: [VRFC 10-311] analyzing module SR_Moore
+INFO: [VRFC 10-311] analyzing module ShiftReg
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/VivadoProjects/Experiment_3/Experiment_3.srcs/sim_1/new/SQD_Timing_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SQD_Timing_tb

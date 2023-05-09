@@ -1,0 +1,90 @@
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+-------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.1 (win64) Build 3247384 Thu Jun 10 19:36:33 MDT 2021
+| Date         : Tue Dec 27 21:09:31 2022
+| Host         : LAPTOP-OTCI54J6 running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file Painting_control_sets_placed.rpt
+| Design       : Painting
+| Device       : xc7a100t
+-------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    12 |
+|    Minimum number of control sets                        |    12 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |    50 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    12 |
+| >= 0 to < 4        |     2 |
+| >= 4 to < 6        |     1 |
+| >= 6 to < 8        |     0 |
+| >= 8 to < 10       |     2 |
+| >= 10 to < 12      |     4 |
+| >= 12 to < 14      |     0 |
+| >= 14 to < 16      |     0 |
+| >= 16              |     3 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              83 |           31 |
+| No           | No                    | Yes                    |             131 |           37 |
+| No           | Yes                   | No                     |               0 |            0 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |              62 |           24 |
+| Yes          | Yes                   | No                     |               2 |            2 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++---------------------+-------------------------------+----------------------------------+------------------+----------------+--------------+
+|     Clock Signal    |         Enable Signal         |         Set/Reset Signal         | Slice Load Count | Bel Load Count | Bels / Slice |
++---------------------+-------------------------------+----------------------------------+------------------+----------------+--------------+
+|  PCLK/inst/clk_out1 | DU/DST/hCNT/q_reg[6]_0        | PU/Debounce_dut/CounterHigh/rstn |                1 |              1 |         1.00 |
+|  PCLK/inst/clk_out1 | DU/DST/vCNT/q_reg[7]_1        | PU/Debounce_dut/CounterHigh/rstn |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG      |                               |                                  |                3 |              4 |         1.33 |
+|  clk_IBUF_BUFG      | PU/GetPosedge_dut1/E[0]       | PU/Debounce_dut/CounterHigh/rstn |                5 |              8 |         1.60 |
+|  clk_IBUF_BUFG      | PU/GetPosedge_dut1/p_reg_0[0] | PU/Debounce_dut/CounterHigh/rstn |                4 |              8 |         2.00 |
+|  PCLK/inst/clk_out1 | DU/DST/hCNT/E[0]              | PU/Debounce_dut/CounterHigh/rstn |                4 |             10 |         2.50 |
+|  PCLK/inst/clk_out1 | DU/DST/E[0]                   | PU/Debounce_dut/CounterHigh/rstn |                4 |             10 |         2.50 |
+|  DU/DST/hen_reg_0   |                               | PU/Debounce_dut/CounterHigh/rstn |                3 |             10 |         3.33 |
+|  PCLK/inst/clk_out1 |                               | PU/Debounce_dut/CounterHigh/rstn |                5 |             11 |         2.20 |
+|  clk_IBUF_BUFG      | PU/Debounce_dut/y_reg_6       | PU/Debounce_dut/CounterHigh/rstn |                7 |             26 |         3.71 |
+|  PCLK/inst/clk_out1 |                               |                                  |               28 |             79 |         2.82 |
+|  clk_IBUF_BUFG      |                               | PU/Debounce_dut/CounterHigh/rstn |               29 |            110 |         3.79 |
++---------------------+-------------------------------+----------------------------------+------------------+----------------+--------------+
+
+
